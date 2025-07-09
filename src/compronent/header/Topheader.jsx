@@ -10,14 +10,13 @@ import InputBase from '@mui/material/InputBase';
 import Badge from '@mui/material/Badge';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
-import MenuIcon from '@mui/icons-material/Menu';
+
 import SearchIcon from '@mui/icons-material/Search';
 import AccountCircle from '@mui/icons-material/AccountCircle';
-import MailIcon from '@mui/icons-material/Mail';
-import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import { GiSelfLove } from "react-icons/gi";
 import { GiShoppingCart } from "react-icons/gi";
+import Leftheader from './Leftheader';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -168,7 +167,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
             aria-label="open drawer"
             sx={{ mr: 2 }}
           >
-            <MenuIcon />
+           <Leftheader/>
           </IconButton>
           <Typography
             variant="h6"

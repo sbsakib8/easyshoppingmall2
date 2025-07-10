@@ -1,11 +1,11 @@
 
-import Topheader from "@/src/compronent/header/Topheader";
-
+import Hero from "@/src/compronent/Home/Hero";
 export default function Home() {
   return (
     
     <div>
-     <Topheader/>
+     <Hero/>
+     
     </div>
   );
 }

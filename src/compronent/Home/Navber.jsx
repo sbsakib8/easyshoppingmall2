@@ -3,7 +3,7 @@ import React from 'react'
 import { FaAngleDown } from "react-icons/fa";
 function Navber() {
   return (
-    <div className='bg-white shadow-md hidden lg:block lg:w-[80%] lg:h-20 rounded-2xl mx-auto mt-2'>
+    <div className='bg-white shadow-md hidden lg:block lg:w-[80%] lg:h-20 rounded-2xl mx-auto mt-2 z-30'>
 
       <div>
         <ul className='flex space-x-3 pt-5 justify-between item-center lg:w-[80%] lg:h-20 mx-auto'>
@@ -15,7 +15,7 @@ function Navber() {
               <li className=' text-[17px] font-medium hover:bg-gray-200  px-3 h-10 rounded-md transition-all delay-200 cursor-pointer '><Link href={'home'}>Fashion</Link></li>
               <FaAngleDown className='absolute -right-2 top-1 text-[20px] text-gray-500' />
             </div>
-            <div className='absolute hidden group-hover:block bg-white shadow-lg rounded-md w-40 mt-2 h-40 group-hover:transition-all group-hover:delay-400'>
+            <div className='absolute hidden group-hover:block bg-white shadow-lg rounded-md w-40 mt-2 h-40 group-hover:transition-all group-hover:delay-400 z-30'>
               <li className=' text-[18px]  hover:bg-gray-200 px-3 h-10 rounded-md transition-all delay-200 cursor-pointer mt-2'><Link href={'man'}>Man</Link></li>
               <li className=' text-[18px]  hover:bg-gray-200 px-3 h-10 rounded-md transition-all delay-200 cursor-pointer mt-2'><Link href={'man'}>Man</Link></li>
               <li className=' text-[18px] hover:bg-gray-200 px-3 h-10 rounded-md transition-all delay-200 cursor-pointer mt-2'><Link href={'man'}>Man</Link></li>
@@ -29,7 +29,7 @@ function Navber() {
               <li className=' text-[17px] font-medium hover:bg-gray-200  px-3 h-10 rounded-md transition-all delay-200 cursor-pointer '><Link href={'home'}>Electronics</Link></li>
               <FaAngleDown className='absolute -right-2 top-1 text-[20px] text-gray-500' />
             </div>
-            <div className='absolute hidden group-hover:block bg-white shadow-lg rounded-md w-40 mt-2 h-40 group-hover:transition-all group-hover:delay-400'>
+            <div className='absolute hidden group-hover:block bg-white shadow-lg rounded-md w-40 mt-2 h-40 group-hover:transition-all group-hover:delay-400 z-30'>
               <li className=' text-[18px]  hover:bg-gray-200 px-3 h-10 rounded-md transition-all delay-200 cursor-pointer mt-2'><Link href={'man'}>Man</Link></li>
               <li className=' text-[18px]  hover:bg-gray-200 px-3 h-10 rounded-md transition-all delay-200 cursor-pointer mt-2'><Link href={'man'}>Man</Link></li>
               <li className=' text-[18px] hover:bg-gray-200 px-3 h-10 rounded-md transition-all delay-200 cursor-pointer mt-2'><Link href={'man'}>Man</Link></li>
@@ -42,7 +42,7 @@ function Navber() {
               <li className=' text-[17px] font-medium hover:bg-gray-200  px-3 h-10 rounded-md transition-all delay-200 cursor-pointer '><Link href={'home'}>Bags</Link></li>
               <FaAngleDown className='absolute -right-2 top-1 text-[20px] text-gray-500' />
             </div>
-            <div className='absolute hidden group-hover:block bg-white shadow-lg rounded-md w-40 mt-2 h-40 group-hover:transition-all group-hover:delay-400'>
+            <div className='absolute hidden group-hover:block bg-white shadow-lg rounded-md w-40 mt-2 h-40 group-hover:transition-all group-hover:delay-400 z-30'>
               <li className=' text-[18px]  hover:bg-gray-200 px-3 h-10 rounded-md transition-all delay-200 cursor-pointer mt-2'><Link href={'man'}>Man</Link></li>
               <li className=' text-[18px]  hover:bg-gray-200 px-3 h-10 rounded-md transition-all delay-200 cursor-pointer mt-2'><Link href={'man'}>Man</Link></li>
               <li className=' text-[18px] hover:bg-gray-200 px-3 h-10 rounded-md transition-all delay-200 cursor-pointer mt-2'><Link href={'man'}>Man</Link></li>
@@ -55,7 +55,7 @@ function Navber() {
               <li className=' text-[17px] font-medium hover:bg-gray-200  px-3 h-10 rounded-md transition-all delay-200 cursor-pointer '><Link href={'home'}>Footwear</Link></li>
               <FaAngleDown className='absolute -right-2 top-1 text-[20px] text-gray-500' />
             </div>
-            <div className='absolute hidden group-hover:block bg-white shadow-lg rounded-md w-40 mt-2 h-40 group-hover:transition-all group-hover:delay-400'>
+            <div className='absolute hidden group-hover:block bg-white shadow-lg rounded-md w-40 mt-2 h-40 group-hover:transition-all group-hover:delay-400 z-30'>
               <li className=' text-[18px]  hover:bg-gray-200 px-3 h-10 rounded-md transition-all delay-200 cursor-pointer mt-2'><Link href={'man'}>Man</Link></li>
               <li className=' text-[18px]  hover:bg-gray-200 px-3 h-10 rounded-md transition-all delay-200 cursor-pointer mt-2'><Link href={'man'}>Man</Link></li>
               <li className=' text-[18px] hover:bg-gray-200 px-3 h-10 rounded-md transition-all delay-200 cursor-pointer mt-2'><Link href={'man'}>Man</Link></li>
@@ -68,7 +68,7 @@ function Navber() {
               <li className=' text-[17px] font-medium hover:bg-gray-200  px-3 h-10 rounded-md transition-all delay-200 cursor-pointer '><Link href={'home'}>Beauty</Link></li>
               <FaAngleDown className='absolute -right-2 top-1 text-[20px] text-gray-500' />
             </div>
-            <div className='absolute hidden group-hover:block bg-white shadow-lg rounded-md w-40 mt-2 h-40 group-hover:transition-all group-hover:delay-400'>
+            <div className='absolute hidden group-hover:block bg-white shadow-lg rounded-md w-40 mt-2 h-40 group-hover:transition-all group-hover:delay-400 z-30'>
               <li className=' text-[18px]  hover:bg-gray-200 px-3 h-10 rounded-md transition-all delay-200 cursor-pointer mt-2'><Link href={'man'}>Man</Link></li>
               <li className=' text-[18px]  hover:bg-gray-200 px-3 h-10 rounded-md transition-all delay-200 cursor-pointer mt-2'><Link href={'man'}>Man</Link></li>
               <li className=' text-[18px] hover:bg-gray-200 px-3 h-10 rounded-md transition-all delay-200 cursor-pointer mt-2'><Link href={'man'}>Man</Link></li>
@@ -81,7 +81,7 @@ function Navber() {
               <li className=' text-[17px] font-medium hover:bg-gray-200  px-3 h-10 rounded-md transition-all delay-200 cursor-pointer '><Link href={'home'}>Shop</Link></li>
               <FaAngleDown className='absolute -right-2 top-1 text-[20px] text-gray-500' />
             </div>
-            <div className='absolute hidden group-hover:block bg-white shadow-lg rounded-md w-[600px] -ml-100 mt-5 h-40 group-hover:transition-all group-hover:delay-400'>
+            <div className='absolute hidden group-hover:block bg-white shadow-lg rounded-md w-[600px] -ml-100 mt-5 h-40 group-hover:transition-all group-hover:delay-400 z-30'>
               <div className='flex items-center justify-between'>
 
                 <div>

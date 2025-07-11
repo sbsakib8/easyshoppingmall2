@@ -3,7 +3,7 @@ import { FaEye } from "react-icons/fa";
 
 function Categories() {
     return (
-        <div className="container h-[500px]">
+        <div className="container">
             <h2 className=" text-[20px] lg:text-[23px] font-bold text-gray-600">Featured Categories</h2>
 
             <div>

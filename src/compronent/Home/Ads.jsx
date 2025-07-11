@@ -4,8 +4,8 @@ import React from 'react'
 function Ads() {
   return (
     <div className='container '>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-5'> 
-         <div className=''>
+        <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-2 mx-3'> 
+         <div className='w-[150px] md:w-[200px] lg:w-[320px] xl:w-[360px]'>
             <Image 
           src="/img/ads1.jpg" 
           height={400} 
@@ -14,7 +14,7 @@ function Ads() {
           alt="Advertisement"
         />
          </div>
-         <div className=''>
+         <div  className='w-[150px] md:w-[200px] lg:w-[320px] xl:w-[360px]'>
             <Image 
           src="/img/ads2.jpg" 
           height={400} 
@@ -23,7 +23,7 @@ function Ads() {
           alt="Advertisement"
         />
          </div>
-         <div className=''>
+         <div  className='w-[150px] md:w-[200px] lg:w-[320px] xl:w-[360px]'>
             <Image 
           src="/img/ads3.jpg" 
           height={400} 
@@ -32,7 +32,7 @@ function Ads() {
           alt="Advertisement"
         />
          </div>
-         <div className=''>
+         <div className='w-[150px] md:w-[200px] lg:w-[320px] xl:w-[360px]'>
             <Image 
           src="/img/ads4.jpg" 
           height={400} 

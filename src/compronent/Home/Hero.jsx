@@ -6,6 +6,7 @@ import Categories from './Categories'
 import Ads from './Ads'
 import Productcard from './Productcard'
 import Productcarousel from '@/src/helper/Hero/Productcarousel'
+import Footer from './Footer'
 
 function Hero() {
   return (
@@ -23,6 +24,7 @@ function Hero() {
           <Productcarousel/>
           <Productcarousel/>
         </div>
+        <Footer/>
     </div>
   )
 }

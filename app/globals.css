@@ -23,3 +23,7 @@
 .container{
   @apply w-[98%] lg:w-[97%] xl:w-[95%] mx-auto my-3 md:my-5 lg:my-3 py-4 ;  
 }
+
+.MuiInputBase-root{
+  @apply  !border-2  border-primary-color! !outline-none !rounded-lg !shadow-sm w-full! h-13! ;
+}

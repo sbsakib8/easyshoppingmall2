@@ -4,6 +4,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { CiLogin } from "react-icons/ci";
 import { useState } from 'react';
 import Link from 'next/link';
 
@@ -147,7 +148,13 @@ import Link from 'next/link';
       </Accordion>
      </div>
      
-    </div>
+     <div className=' flex justify-center items-center mt-6 '>
+      <button className='  flex justify-center items-center gap-2 w-[150px]  py-2 border border-primary-color cursor-pointer hover:bg-gray-300 rounded-md'>
+        <CiLogin  className=' text-2xl'/>
+        <Link href={'/'} className=' text-[20px]'>Sing Out</Link>
+        </button>
+     </div>
+    </div>     
   );
 }
 

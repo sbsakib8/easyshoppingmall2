@@ -1,13 +1,18 @@
 import Link from 'next/link'
 import React from 'react'
 import { FaAngleDown } from "react-icons/fa";
+import Topheader from '../header/Topheader';
 function Navber() {
   return (
-    <div className='bg-white shadow-md hidden lg:block lg:w-[80%] lg:h-20 rounded-2xl mx-auto mt-2 z-30'>
+
+    <>
+     <Topheader/>
+     
+     <div className='bg-white shadow-md hidden lg:block lg:w-[80%] lg:h-20 rounded-2xl mx-auto mt-2 z-30'>
 
       <div>
         <ul className='flex space-x-3 pt-5 justify-between item-center lg:w-[80%] lg:h-20 mx-auto'>
-          <li className=' text-[20px] font-bold hover:bg-gray-200 px-3 h-10 rounded-md transition-all delay-200 cursor-pointer '><Link href={'home'}>Home</Link></li>
+          <li className=' text-[20px] font-bold hover:bg-gray-200 px-3 h-10 rounded-md transition-all delay-200 cursor-pointer '><Link href={'/'}>Home</Link></li>
           {/* fashion section */}
           <div className='relative group '>
 
@@ -107,6 +112,9 @@ function Navber() {
         </ul>
       </div>
     </div>
+    
+    </>
+   
   )
 }
 

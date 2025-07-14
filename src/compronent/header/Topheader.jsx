@@ -10,6 +10,11 @@ import InputBase from '@mui/material/InputBase';
 import Badge from '@mui/material/Badge';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
+import { CiLogin } from "react-icons/ci";
+import { IoSettingsOutline } from "react-icons/io5";
+import { IoPersonAddOutline } from "react-icons/io5";
+import { CgProfile } from "react-icons/cg";
+
 
 import SearchIcon from '@mui/icons-material/Search';
 import AccountCircle from '@mui/icons-material/AccountCircle';
@@ -17,6 +22,7 @@ import MoreIcon from '@mui/icons-material/MoreVert';
 import { GiSelfLove } from "react-icons/gi";
 import { GiShoppingCart } from "react-icons/gi";
 import Leftheader from './Leftheader';
+import Link from 'next/link';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -85,9 +91,10 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   const menuId = 'primary-search-account-menu';
   const renderMenu = (
     <Menu
+    className='!w-[2000px] !text-[20px] !font-bold'
       anchorEl={anchorEl}
       anchorOrigin={{
-        vertical: 'top',
+        vertical: 'bottom',
         horizontal: 'right',
       }}
       id={menuId}
@@ -99,8 +106,13 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
       open={isMenuOpen}
       onClose={handleMenuClose}
     >
-      <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
-      <MenuItem onClick={handleMenuClose}>My account</MenuItem>
+      <MenuItem className=' space-x-3 flex justify-between items-center ' onClick={handleMenuClose}> <CgProfile className=' text-2xl'/> <span>Profile</span></MenuItem>
+      <MenuItem className=' space-x-3 flex justify-between items-center ' onClick={handleMenuClose}> <CgProfile className=' text-2xl'/> <span>My account</span></MenuItem>
+      <p className='w-full h-[1px] bg-gray-400 my-3'></p>
+     
+      <MenuItem className=' space-x-3 flex justify-between items-center ' onClick={handleMenuClose}> <IoPersonAddOutline className=' text-2xl'/> <span>Add another account</span></MenuItem>
+      <MenuItem className=' space-x-3 flex justify-between items-center ' onClick={handleMenuClose}> <IoSettingsOutline className=' text-2xl'/> <span>Settings</span></MenuItem>
+      <MenuItem className=' space-x-3 flex justify-between items-center ' onClick={handleMenuClose}> <CiLogin className=' text-2xl'/> <span>Logout</span></MenuItem>
     </Menu>
   );
 
@@ -175,7 +187,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
             component="div"
             sx={{ display: { xs: 'none', sm: 'block' } }}
           >
-            EasyShoppingMall
+            <Link href={'/'}>EasyShoppingMall</Link>
           </Typography>
           <Search className='lg:ml-[300px]! lg:w-[500px]!'>
             <SearchIconWrapper >

@@ -1,5 +1,7 @@
 import { Lato, Roboto } from "next/font/google";
 import "./globals.css";
+import Navber from "@/src/compronent/Home/Navber";
+import Footer from "@/src/compronent/Home/Footer";
 
 const lato = Lato({
   subsets: ["latin"],
@@ -25,7 +27,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${lato.variable} ${roboto.variable} antialiased`}
       >
+        <Navber/>
         {children}
+
+
+        <Footer/>
       </body>
     </html>
   );
